@@ -14,7 +14,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * Rating
- * @ORM\Table(name="rating",indexes={@ORM\Index(name="blog_rating_idx", columns={"entity_name", "entity_id"})})
+ * @ORM\Table(name="blog_rating",indexes={@ORM\Index(name="blog_rating_idx", columns={"entity_name", "entity_id"})})
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\RatingRepository")
  */
 class Rating

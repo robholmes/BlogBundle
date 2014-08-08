@@ -8,7 +8,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * Desarrolla2\Bundle\BlogBundle\Entity\Tag
  *
- * @ORM\Table(name="tag")
+ * @ORM\Table(name="blog_tag")
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\TagRepository")
  */
 class Tag

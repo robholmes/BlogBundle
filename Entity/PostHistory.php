@@ -8,7 +8,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * Desarrolla2\Bundle\BlogBundle\Entity\PostHistory
  *
- * @ORM\Table(name="post_history")
+ * @ORM\Table(name="blog_post_history")
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\PostHistoryRepository")
  */
 class PostHistory

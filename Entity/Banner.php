@@ -15,7 +15,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * Banner
  *
- * @ORM\Table(name="banner")
+ * @ORM\Table(name="blog_banner")
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\BannerRepository")
  */
 class Banner

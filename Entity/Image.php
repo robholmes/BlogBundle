@@ -8,7 +8,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * Desarrolla2\Bundle\BlogBundle\Entity\Image
  *
- * @ORM\Table(name="image")
+ * @ORM\Table(name="blog_image")
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\ImageRepository")
  */
 class Image

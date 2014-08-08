@@ -19,7 +19,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
  *
  * Description of Link
  *
- * @ORM\Table(name="link")
+ * @ORM\Table(name="blog_link")
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\LinkRepository")
  *
  */

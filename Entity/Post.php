@@ -10,7 +10,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * Desarrolla2\Bundle\BlogBundle\Entity\Post
  *
- * @ORM\Table(name="post")
+ * @ORM\Table(name="blog_post")
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\PostRepository")
  */
 class Post

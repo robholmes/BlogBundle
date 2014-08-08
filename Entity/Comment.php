@@ -9,7 +9,7 @@ use Desarrolla2\Bundle\BlogBundle\Model\Gravatar;
 /**
  * Desarrolla2\Bundle\BlogBundle\Entity\Comment
  *
- * @ORM\Table(name="comment")
+ * @ORM\Table(name="blog_comment")
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\CommentRepository")
  */
 class Comment

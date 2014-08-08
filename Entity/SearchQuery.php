@@ -14,7 +14,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Desarrolla2\Bundle\BlogBundle\Entity\Post
  *
- * @ORM\Table(name="search_query",indexes={@ORM\Index(name="search_query_idx", columns={"query"})})
+ * @ORM\Table(name="blog_search_query",indexes={@ORM\Index(name="search_query_idx", columns={"query"})})
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\SearchQueryRepository")
  */
 class SearchQuery

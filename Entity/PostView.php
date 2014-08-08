@@ -15,7 +15,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * PostView
  *
- * @ORM\Table(name="post_view",indexes={@ORM\Index(name="post_click_idx", columns={"post_id", "date"})})
+ * @ORM\Table(name="blog_post_view",indexes={@ORM\Index(name="post_click_idx", columns={"post_id", "date"})})
  * @ORM\Entity(repositoryClass="Desarrolla2\Bundle\BlogBundle\Entity\Repository\PostViewRepository")
  */
 class PostView
